@@ -5,7 +5,8 @@
     "schema_created_at": "2016-03-15T09:01:56.955Z",
     "schema_collected_ats": [
       "2016-03-15T09:01:56.955Z",
-      "2016-03-15T09:02:16.864Z"
+      "2016-03-15T09:02:16.864Z",
+      "2016-03-15T10:09:29.788Z"
     ],
     "agent": "cli-generator",
     "github_user": "milooy",
@@ -3739,6 +3740,56 @@
       "created_at": "2015-12-16T06:49:27Z",
       "actor": "milooy",
       "repo": "milooy/TIL"
+    },
+    {
+      "payload": {
+        "push_id": 1021153458,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/gh-pages",
+        "head": "1d1a49ccb519e9a8008eb3099c5ca6d1191b6da3",
+        "before": "c94d4cdfcaf8ad5839a34f831c991b13369f0430",
+        "commit_shas": [
+          "1d1a49ccb519e9a8008eb3099c5ca6d1191b6da3"
+        ]
+      },
+      "event_id": "3763954908",
+      "type": "PushEvent",
+      "created_at": "2016-03-15T10:06:05Z",
+      "actor": "milooy",
+      "repo": "milooy/oh-my-github"
+    },
+    {
+      "payload": {
+        "push_id": 1021151861,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/gh-pages",
+        "head": "c94d4cdfcaf8ad5839a34f831c991b13369f0430",
+        "before": "3103e957ce2089e6bce21d73a9d9e8bdf73f2079",
+        "commit_shas": [
+          "c94d4cdfcaf8ad5839a34f831c991b13369f0430"
+        ]
+      },
+      "event_id": "3763950725",
+      "type": "PushEvent",
+      "created_at": "2016-03-15T10:05:01Z",
+      "actor": "milooy",
+      "repo": "milooy/oh-my-github"
+    },
+    {
+      "payload": {
+        "ref": "gh-pages",
+        "ref_type": "branch",
+        "master_branch": "gh-pages",
+        "description": "",
+        "pusher_type": "user"
+      },
+      "event_id": "3763719234",
+      "type": "CreateEvent",
+      "created_at": "2016-03-15T09:03:55Z",
+      "actor": "milooy",
+      "repo": "milooy/oh-my-github"
     }
   ],
   "repositories": [
@@ -4224,18 +4275,18 @@
     },
     {
       "name": "oh-my-github",
-      "description": "",
+      "description": "Jay Jin's Github Portforlio Page",
       "full_name": "milooy/oh-my-github",
       "fork": false,
       "forks_count": 0,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": null,
+      "language": "JavaScript",
       "open_issues_count": 0,
-      "default_branch": "master",
+      "default_branch": "gh-pages",
       "created_at": "2016-03-15T08:31:49Z",
-      "updated_at": "2016-03-15T08:31:49Z",
-      "pushed_at": "2016-03-15T08:31:49Z",
+      "updated_at": "2016-03-15T09:08:15Z",
+      "pushed_at": "2016-03-15T10:06:04Z",
       "url": "https://github.com/milooy/oh-my-github"
     },
     {
@@ -4925,7 +4976,21 @@
     {
       "owner": "milooy",
       "repo_name": "oh-my-github",
-      "url": "http://github.com/milooy/oh-my-github"
+      "url": "http://github.com/milooy/oh-my-github",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "line": 73504
+        },
+        {
+          "name": "CSS",
+          "line": 3391
+        },
+        {
+          "name": "HTML",
+          "line": 2125
+        }
+      ]
     },
     {
       "owner": "milooy",
